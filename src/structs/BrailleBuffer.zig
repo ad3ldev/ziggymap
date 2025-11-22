@@ -161,6 +161,7 @@ const BrailleBuffer = struct {
             return term_reset;
         }
     }
-    // TOOD: Implement
-    fn mapBraille(self: *BrailleBuffer) void {}
+    fn mapBraille(_: *BrailleBuffer) void {
+        // TOOD: Implement
+    }
 };
