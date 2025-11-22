@@ -61,6 +61,7 @@ pub fn hex_to_rgb(color: [7]u8) struct { r: u8, g: u8, b: u8 } {
 pub fn fn_digits(number: f16, digits: u8) u8 {
     return math.floor(number * math.pow(10, digits)) / math.pow(10, digits);
 }
+
 pub fn normalize(ll: struct { lat: f16, long: f16 }) struct { lat: f16, long: f16 } {
     if (ll.long < -180) {
         ll.long += 360;
