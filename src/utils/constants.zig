@@ -1,1 +1,1 @@
-const RADIUS = 6_378_137;
+pub const RADIUS = 6_378_137;
